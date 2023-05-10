@@ -1,0 +1,82 @@
+/* Stile del titolo della pagina */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Stile del sottotitolo */
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Stile della sezione "Gare in programma" */
+  #in-programma {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  #in-programma h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .gara {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .gara h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .gara p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  
+  /* Stile della sezione "Risultati gare" */
+  #risultati {
+    margin-top: 2rem;
+  }
+  
+  #risultati h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .risultato {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .risultato h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .risultato p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  
+  /* Stile del footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
