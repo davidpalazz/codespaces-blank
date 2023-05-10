@@ -1,0 +1,63 @@
+/* Stile del titolo della pagina */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Stile del sottotitolo */
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Stile del contenitore degli atleti */
+  #atleti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  
+  /* Stile di ogni singolo atleta */
+  .atleta {
+    width: 300px;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  /* Stile dell'immagine dell'atleta */
+  .atleta img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Stile del nome dell'atleta */
+  .atleta h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  /* Stile della descrizione dell'atleta */
+  .atleta p {
+    font-size: 1rem;
+    text-align: justify;
+    margin: 0 1rem 1rem;
+  }
+  
+  /* Stile del footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
