@@ -1,94 +1,95 @@
-/* Stile CSS per il body */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f1f1f1;
+/* Stile del titolo della pagina */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
-/* Stile CSS per l'header */
-header {
-  background-color: #ffffff;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-/* Stile CSS per il logo */
-header img {
-  height: 60px;
-}
-
-/* Stile CSS per la navigazione */
+/* Stile del menu di navigazione */
 nav {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav li {
-  margin: 0 10px;
+  margin-bottom: 2rem;
 }
 
 nav a {
   text-decoration: none;
-  color: #333333;
+  color: #333;
   font-weight: bold;
-  transition: color 0.2s ease;
+  margin: 0 1rem;
+  transition: all 0.3s ease-in-out;
 }
 
 nav a:hover {
-  color: #ff0000;
+  color: #f00;
 }
 
-/* Stile CSS per il titolo */
-h1 {
+/* Stile del banner */
+.banner {
+  background-image: url("path/to/image.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin-top: 100px;
-  font-size: 48px;
-  color: #333333;
+  color: #fff;
+  font-size: 2rem;
 }
 
-/* Stile CSS per la sezione */
-section {
-  margin: 50px auto;
-  max-width: 1200px;
+/* Stile della sezione "Chi siamo" */
+#chi-siamo {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  margin-top: 2rem;
 }
 
-section h2 {
-  font-size: 36px;
-  color: #333333;
-  margin-bottom: 20px;
+#chi-siamo h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-section p {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #666666;
-  margin-bottom: 20px;
+#chi-siamo p {
+  font-size: 1.2rem;
+  text-align: justify;
 }
 
-/* Stile CSS per il footer */
+/* Stile della sezione "Le nostre attività" */
+#attivita {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.attivita-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.attivita-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.attivita-card p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+/* Stile del footer */
 footer {
-  background-color: #333333;
-  color: #ffffff;
-  padding: 20px;
+  background-color: #333;
+  color: #fff;
   text-align: center;
+  padding: 2rem;
 }
 
 footer p {
+  font-size: 1.2rem;
   margin: 0;
 }
