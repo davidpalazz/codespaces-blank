@@ -1,0 +1,43 @@
+/* Stile del titolo della pagina */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Stile del sottotitolo */
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Stile del contenitore del testo */
+  #testo {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: justify;
+  }
+  
+  /* Stile delle immagini */
+  .immagine {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+  }
+  
+  /* Stile del footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
