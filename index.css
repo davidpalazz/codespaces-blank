@@ -1,3 +1,35 @@
+/* Reset dei margini e dei padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stile del body */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Stile del contenitore principale */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Stile dei link */
+a {
+  color: #008080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /* Stile del titolo della pagina */
 h1 {
   font-size: 3rem;
@@ -5,80 +37,70 @@ h1 {
   margin-top: 2rem;
 }
 
-/* Stile del menu di navigazione */
-nav {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  margin: 0 1rem;
-  transition: all 0.3s ease-in-out;
-}
-
-nav a:hover {
-  color: #f00;
-}
-
-/* Stile del banner */
-.banner {
-  background-image: url("path/to/image.jpg");
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
+/* Stile del sottotitolo */
+h2 {
   font-size: 2rem;
-}
-
-/* Stile della sezione "Chi siamo" */
-#chi-siamo {
-  background-color: #f8f8f8;
-  padding: 2rem;
+  text-align: center;
   margin-top: 2rem;
 }
 
-#chi-siamo h2 {
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-#chi-siamo p {
-  font-size: 1.2rem;
-  text-align: justify;
-}
-
-/* Stile della sezione "Le nostre attività" */
-#attivita {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-.attivita-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 1rem;
+/* Stile dei pulsanti */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
   border-radius: 5px;
-}
-
-.attivita-card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.attivita-card p {
+  background-color: #008080;
+  color: #fff;
   font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #006666;
+}
+
+/* Stile delle immagini */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Stile della sezione degli eventi */
+#eventi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+/* Stile di ogni singolo evento */
+.evento {
+  width: 300px;
+  margin: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Stile dell'immagine dell'evento */
+.evento img {
+  width: 100%;
+  height: auto;
+}
+
+/* Stile del titolo dell'evento */
+.evento h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Stile della descrizione dell'evento */
+.evento p {
+  font-size: 1rem;
   text-align: justify;
+  margin: 0 1rem 1rem;
 }
 
 /* Stile del footer */
