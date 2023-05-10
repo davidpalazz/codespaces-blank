@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contatti - Centro Remiero</title>
+</head>
+<body>
+	<h1>Contatti</h1>
+	<p>Per contattare il nostro centro remiero, si prega di utilizzare i seguenti metodi:</p>
+	<ul>
+		<li>Telefono: 123-456-7890</li>
+		<li>Email: info@centroremiero.com</li>
+		<li>Indirizzo: Via del Remo, 1 - 00100 Roma</li>
+	</ul>
+	<p>Oppure, è possibile compilare il modulo di contatto qui sotto:</p>
+	<form action="invia_email.php" method="POST">
+		<label for="nome">Nome:</label><br>
+		<input type="text" id="nome" name="nome"><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email"><br>
+		<label for="oggetto">Oggetto:</label><br>
+		<input type="text" id="oggetto" name="oggetto"><br>
+		<label for="messaggio">Messaggio:</label><br>
+		<textarea id="messaggio" name="messaggio" rows="4" cols="50"></textarea><br>
+		<input type="submit" value="Invia">
+	</form>
+</body>
+</html>
