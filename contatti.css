@@ -1,0 +1,55 @@
+/* Stile del titolo della pagina */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Stile del sottotitolo */
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Stile del contenitore dei contatti */
+  #contatti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  /* Stile della sezione dei numeri di telefono */
+  #telefoni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .telefono {
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+  
+  /* Stile della sezione dell'indirizzo */
+  #indirizzo {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Stile del footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
