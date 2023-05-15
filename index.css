@@ -1,117 +1,54 @@
-/* Reset dei margini e dei padding */
+/* reset dei margini e dei padding per tutti gli elementi */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-/* Stile del body */
-body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* Stile del contenitore principale */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-/* Stile dei link */
-a {
-  color: #008080;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Stile del titolo della pagina */
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-/* Stile del sottotitolo */
-h2 {
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-/* Stile dei pulsanti */
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 5px;
-  background-color: #008080;
-  color: #fff;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #006666;
-}
-
-/* Stile delle immagini */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Stile della sezione degli eventi */
-#eventi {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 2rem;
-}
-
-/* Stile di ogni singolo evento */
-.evento {
-  width: 300px;
-  margin: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-/* Stile dell'immagine dell'evento */
-.evento img {
-  width: 100%;
-  height: auto;
-}
-
-/* Stile del titolo dell'evento */
-.evento h3 {
-  font-size: 1.5rem;
-  text-align: center;
-  margin: 1rem 0;
-}
-
-/* Stile della descrizione dell'evento */
-.evento p {
-  font-size: 1rem;
-  text-align: justify;
-  margin: 0 1rem 1rem;
-}
-
-/* Stile del footer */
-footer {
+/* stile per l'header */
+header {
   background-color: #333;
   color: #fff;
-  text-align: center;
-  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-footer p {
-  font-size: 1.2rem;
-  margin: 0;
+/* stile per il titolo nell'header */
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
 }
+
+/* stile per il menu di navigazione nell'header */
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+/* stile per ogni voce di menu nel menu di navigazione */
+header nav li {
+  margin-left: 20px;
+}
+
+/* stile per ogni link all'interno del menu di navigazione */
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* stile per il titolo principale della pagina */
+main h2 {
+  font-size: 28px;
+  margin: 40px 0;
+}
+
+/* stile per il sottotitolo della pagina */
+main h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* stile
