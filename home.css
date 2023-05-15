@@ -15,8 +15,9 @@ h1 {
   /* Stile del contenitore delle immagini */
   #immagini {
     display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
   }
   
   /* Stile delle immagini */
@@ -25,6 +26,7 @@ h1 {
     border: 1px solid #ddd;
     padding: 1rem;
     border-radius: 5px;
+    align-items: center;
   }
   
   /* Stile della sezione "Ultime news" */
@@ -68,3 +70,4 @@ h1 {
     font-size: 1.2rem;
     margin: 0;
   }
+
